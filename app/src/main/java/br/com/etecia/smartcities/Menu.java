@@ -7,7 +7,7 @@ public class Menu {
     private int imagem;
 
 
-    public Menu (String titulo, String descricao, int imagem) {
+    public Menu(String titulo, String descricao, int imagem) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.imagem = imagem;

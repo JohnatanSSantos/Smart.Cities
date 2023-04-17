@@ -12,12 +12,11 @@
         android:theme="@style/Theme.SmartCities"
         tools:targetApi="31">
         <activity
-            android:name=".ApresentaMenuActivity"
-            android:exported="true" >
-        </activity>
-        <activity
             android:name=".ModeloMenuActivity"
             android:exported="false" />
+        <activity
+            android:name=".ApresentaMenuActivity"
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />

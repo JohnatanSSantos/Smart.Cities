@@ -46,10 +46,10 @@ public class LoginActivity extends AppCompatActivity {
                 senha = edtSenha.getText().toString();
 
 
-                if (usuario.equals("admin") && senha.equals("admin")) {
+                if (usuario.equals("") && senha.equals("")) {
 
                     startActivity(new Intent(getApplicationContext(),
-                            Menu.class));
+                            ModeloMenuActivity.class));
                     finish();
 
                 } else {

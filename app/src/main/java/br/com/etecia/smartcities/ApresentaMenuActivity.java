@@ -26,6 +26,7 @@ public class ApresentaMenuActivity extends AppCompatActivity {
         mTituloMenu= findViewById(R.id.mTituloMenu);
         mDescricao = findViewById(R.id.mDescricao);
         mImagemMenu = findViewById(R.id.mImagemMenu);
+
         idToolbar = findViewById(R.id.idToolBar);
 
         idToolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -42,7 +43,7 @@ public class ApresentaMenuActivity extends AppCompatActivity {
 
         titulo = intent.getExtras().getString("Titulo");
         descricao = intent.getExtras().getString("Descricao");
-        imagemMenu = intent.getExtras().getInt("ImagemMenu");
+        imagemMenu = intent.getExtras().getInt("Imagem");
 
         mTituloMenu.setText(titulo);
         mDescricao.setText(descricao);

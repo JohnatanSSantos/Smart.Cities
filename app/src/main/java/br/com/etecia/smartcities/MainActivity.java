@@ -22,32 +22,33 @@ public class MainActivity extends AppCompatActivity {
 
         idRecyclerView = findViewById(R.id.idListaMenu);
 
-        ListaMenu = new ArrayList<br.com.etecia.smartcities.Menu>();
+        ListaMenu = new ArrayList<>();
+
+        ListaMenu.add(
+                new Menu(
+                        "sff",
+                        "fsafs",
+                        R.drawable.capitalhumano));
 
         ListaMenu.add(
                 new Menu("sff",
                         "fsafs",
-                        R.drawable.caphumano));
+                        R.drawable.capitalhumano));
 
         ListaMenu.add(
                 new Menu("sff",
                         "fsafs",
-                        R.drawable.caphumano));
+                        R.drawable.capitalhumano));
 
         ListaMenu.add(
                 new Menu("sff",
                         "fsafs",
-                        R.drawable.caphumano));
+                        R.drawable.capitalhumano));
 
         ListaMenu.add(
                 new Menu("sff",
                         "fsafs",
-                        R.drawable.caphumano));
-
-        ListaMenu.add(
-                new Menu("sff",
-                        "fsafs",
-                        R.drawable.caphumano));
+                        R.drawable.capitalhumano));
 
 
 
